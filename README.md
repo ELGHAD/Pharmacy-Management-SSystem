@@ -57,10 +57,36 @@ Objectifs principaux :
 
 ## 📂 Structure du projet
 
-```text
 src/
  ├── dao/            # Accès aux données (MySQL via JDBC)
  ├── model/          # Classes métiers (Médicament, Facture, Utilisateur…)
  ├── service/        # Logique métier
  ├── ui/             # Interfaces Swing
  └── Main.java       # Point d’entrée
+
+
+## ⚡ Installation et exécution
+
+1️⃣ Cloner le projet
+git clone https://github.com/username/Pharmacy-Management-System.git
+cd Pharmacy-Management-System
+
+2️⃣ Configurer la base MySQL
+
+Créer une base pharmacy_db
+
+Importer /database/pharmacy_db.sql
+
+3️⃣ Modifier la connexion JDBC
+
+Dans DatabaseConnection.java :
+
+String url = "jdbc:mysql://localhost:3306/pharmacy_db";
+String user = "root";
+String password = "your_password";
+
+4️⃣ Lancer l’application
+
+Ouvrir le projet avec IntelliJ IDEA
+
+Exécuter Main.java
