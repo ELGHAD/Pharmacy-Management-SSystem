@@ -68,7 +68,7 @@ src/
 ## ⚡ Installation et exécution
 
 1️⃣ Cloner le projet
-git clone https://github.com/username/Pharmacy-Management-System.git
+git clone https://github.com/username/Pharmacy-Manager.git
 cd Pharmacy-Management-System
 
 2️⃣ Configurer la base MySQL
